@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookStore — Книжный магазин</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--header-->
+<header class="header" id="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="svg/logo-booknest-mark-outline.svg" alt="BookNest" width="40" height="40">
+        <span class="header__logo-text">Book<span>Nest</span></span>
+      </a>
+      <nav class="header__nav">
+        <a href="pages/catalog.html" class="header__nav-link">Каталог</a>
+        <a href="pages/about.html"   class="header__nav-link">О нас</a>
+        <a href="pages/contacts.html" class="header__nav-link">Контакты</a>
+      </nav>
+      <button class="header__burger js-header-burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="header__actions">
+        <a href="pages/cart.html" class="header__cart-btn" title="Корзина">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="header__cart-count header__cart-count--hidden js-cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--hero-->
+<section class="hero js-hero-slider">
+  <div class="hero__slide hero__slide--active" data-slide="0">
+    <img class="hero__slide-img js-hero-bg-img" src="images/covers/slider-rytsar.jpg" alt="" loading="eager" decoding="async">
+    <div class="hero__slide-bg"></div>
+  </div>
+
+  <div class="hero__overlay"></div>
+
+  <div class="hero__content">
+    <div class="hero__text js-hero-text">
+      <p class="hero__genre js-hero-genre">Классика</p>
+      <h1 class="hero__title js-hero-title">Мастер и<br>Маргарита</h1>
+      <p class="hero__author js-hero-author">— Михаил Булгаков</p>
+      <p class="hero__price js-hero-price">39.73 <i class="nbrb-icon" aria-hidden="true">BYN</i></p>
+      <div class="hero__actions">
+        <button class="btn btn--gold btn--lg js-hero-add" type="button">В корзину</button>
+        <a href="pages/catalog.html" class="btn btn--outline">К каталогу</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__arrows">
+    <button class="hero__arrow js-hero-prev" type="button" aria-label="Предыдущий слайд">←</button>
+    <button class="hero__arrow js-hero-next" type="button" aria-label="Следующий слайд">→</button>
+  </div>
+
+  <div class="hero__dots js-hero-dots"></div>
+</section>
+
+<!--main-->
+<main>
+  <div class="container">
+    <section class="section" id="catalog">
+      <h2 class="section-title">Скидки: 5 книг</h2>
+      <div class="books-row js-discount-grid"></div>
+      <div style="margin-top:20px">
+        <a href="pages/catalog.html" class="btn btn--outline">Открыть каталог</a>
+      </div>
+    </section>
+
+    <!--promo-->
+    <div class="promo-banner">
+      <div class="promo-banner__item">
+        <div class="promo-banner__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96 12 12.01l8.73-5.05"/><path d="M12 22.08V12"/></svg>
+        </div>
+        <h3 class="promo-banner__title">Мгновенная доставка</h3>
+        <p class="promo-banner__text">Электронные книги — на email сразу после оплаты. Без ожидания.</p>
+      </div>
+      <div class="promo-banner__item">
+        <div class="promo-banner__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+        </div>
+        <h3 class="promo-banner__title">Безопасные платежи</h3>
+        <p class="promo-banner__text">100% лицензионные издания. Защищённые транзакции.</p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!--footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <p class="footer__col-title">Приложение</p>
+        <ul class="footer__apps">
+          <li>
+            <a href="#" class="footer__app-link" aria-label="Google Play">
+              <img src="svg/icon-playmarket.svg" alt="Google Play" width="20" height="20">
+              <span>Google Play</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer__app-link" aria-label="App Store">
+              <img src="svg/icon-appstore.svg" alt="App Store" width="20" height="20">
+              <span>App Store</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer__app-link" aria-label="AppGallery">
+              <img src="svg/icon-appgallery.svg" alt="AppGallery" width="20" height="20">
+              <span>AppGallery</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Навигация</p>
+        <ul class="footer__links">
+          <li><a href="pages/catalog.html">Каталог</a></li>
+          <li><a href="pages/about.html">О нас</a></li>
+          <li><a href="pages/contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Соцсети</p>
+        <ul class="footer__apps">
+          <li>
+            <a href="https://vk.ru/index.php?ysclid=moqbzmiesm591803679" class="footer__app-link" aria-label="ВКонтакте" target="_blank" rel="noopener noreferrer">
+              <img src="svg/icon-vk.svg" alt="" width="18" height="18">
+              <span>ВКонтакте</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/alekseypasevich/?hl=ru" class="footer__app-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <img src="svg/icon-instagram.svg" alt="" width="18" height="18">
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/aallekseii213" class="footer__app-link" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
+              <img src="svg/icon-telegram.svg" alt="" width="18" height="18">
+              <span>Telegram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__bottom-address">Адрес: Республика Беларусь, г. Минск, 220033, ул. Белорусская, 21 Телефон: +375 (29) 123 45 67</p>
+    </div>
+  </div>
+</footer>
+
+<!--scripts-->
+<script src="js/store.js"></script>
+  <script src="js/byn-currency.js"></script>
+  <script src="js/menu.js?v=20260504"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
+

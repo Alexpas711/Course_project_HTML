@@ -1,0 +1,11 @@
+{
+  "name": "bookstore",
+  "private": true,
+  "scripts": {
+    "build:css": "sass --style=compressed scss/style.scss css/style.css",
+    "watch:css": "sass --watch --style=compressed scss/style.scss css/style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0"
+  }
+}

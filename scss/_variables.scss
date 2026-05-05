@@ -1,0 +1,37 @@
+$color-bg:          #0d0d0d;
+$color-bg-card:     #1a1a1a;
+$color-bg-dark:     #111;
+$color-bg-hover:    #222222;
+$color-border:      #2a2a2a;
+
+$color-text:        #e8e0d0;
+$color-text-muted:  #888880;
+$color-text-dim:    #555550;
+
+$color-accent:      #6bb8ff;
+$color-accent-hover:#9fd3ff;
+$color-accent-dark: #3f96ea;
+$color-success:     #4caf7a;
+$color-white:       #ffffff;
+$color-black:       #000000;
+
+$font-main: "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
+$font-weight-body: 500;
+$font-size-base: 17px;
+$line-height-base: 1.65;
+
+$bp-xl:   1024px;
+$bp-lg:   768px;
+$bp-md:   420px;
+$bp-sm:   360px;
+$bp-xs:   320px;
+
+$transition: all 0.25s ease;
+$transition-color: color 0.25s ease;
+$transition-transform: transform 0.4s ease;
+
+$header-height:       72px;
+$header-height-mobile:60px;
+$container-max:       1200px;
+$container-padding:   24px;
+$container-padding-mobile: 16px;

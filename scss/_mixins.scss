@@ -1,0 +1,61 @@
+@import "variables";
+
+@mixin max($bp) {
+  @media (max-width: $bp) {
+    @content;
+  }
+}
+
+@mixin font-montserrat {
+  font-family: $font-main;
+}
+
+@mixin text-sm {
+  font-size: clamp(0.9rem, 0.82rem + 0.45vmin, 1.02rem);
+  line-height: 1.5;
+}
+
+@mixin text-md {
+  font-size: clamp(0.95rem, 0.85rem + 0.6vmin, 1.1rem);
+  line-height: 1.55;
+}
+
+@mixin text-chip {
+  font-size: clamp(0.8125rem, 1vw + 0.45rem, 1.0625rem);
+}
+
+@mixin icon-btn($size: 44px) {
+  width: $size;
+  height: $size;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $color-border;
+  border-radius: 4px;
+  color: $color-text;
+  transition: $transition;
+
+  &:hover {
+    border-color: $color-accent;
+    color: $color-accent;
+  }
+}
+
+@mixin card-hover {
+  transition: all 0.4s ease;
+
+  &:hover {
+    border-color: $color-accent;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.7), 0 0 20px rgba(107, 184, 255, 0.1);
+  }
+}
+
+@mixin label-caps {
+  @include font-montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  color: $color-accent;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас — BookStore</title>
+  <link rel="stylesheet" href="../css/style.css?v=20260505">
+</head>
+<body>
+
+<!--header-->
+<header class="header" id="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="../index.html" class="header__logo">
+        <img src="../svg/logo-booknest-mark-outline.svg" alt="BookNest" width="40" height="40">
+        <span class="header__logo-text">Book<span>Nest</span></span>
+      </a>
+      <nav class="header__nav">
+        <a href="catalog.html" class="header__nav-link">Каталог</a>
+        <a href="about.html"   class="header__nav-link header__nav-link--active">О нас</a>
+        <a href="contacts.html" class="header__nav-link">Контакты</a>
+      </nav>
+      <button class="header__burger js-header-burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="header__actions">
+        <a href="cart.html" class="header__cart-btn">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="header__cart-count header__cart-count--hidden js-cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--main-->
+<main class="about-page">
+  <div class="container">
+
+    <!--hero-->
+    <section class="about-hero">
+      <div class="about-hero__content">
+        <h1>
+          <em>Book</em>Nest —<br>надёжный поставщик<br>лицензионных книг
+        </h1>
+        <p>
+          Мы предлагаем официальные издания для тех, кто ценит качество и удобство.
+          Наша цель — сделать покупку книг простой, выгодной и максимально надёжной.
+        </p>
+        <p>
+          В каталоге — классика и современные бестселлеры, фантастика и психология,
+          фэнтези и саморазвитие. Всё с мгновенной доставкой на ваш email.
+        </p>
+        <a href="catalog.html" class="btn btn--gold" style="margin-top:8px;display:inline-flex">
+          Перейти в каталог →
+        </a>
+      </div>
+      <div class="about-hero__visual">
+        <div class="about-hero__logo-big">
+          <img src="../svg/logo-booknest-mark-outline.svg" alt="BookNest" width="100" height="100">
+        </div>
+        <p class="about-hero__brand-name"><em>Book</em>Nest</p>
+        <p class="about-hero__tagline">«Книги — это зеркало души»</p>
+      </div>
+    </section>
+
+    <!--features-->
+    <section class="about-advantages">
+      <h2 class="section-title">Наши преимущества</h2>
+      <div class="about-advantages__grid">
+        <div class="advantage-card">
+          <div class="advantage-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <h3 class="advantage-card__title">100% лицензионные издания</h3>
+          <p class="advantage-card__text">
+            Сотрудничаем только с официальными издательствами. Никакого пиратства, никаких серых схем.
+          </p>
+        </div>
+        <div class="advantage-card">
+          <div class="advantage-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3 class="advantage-card__title">Мгновенная доставка</h3>
+          <p class="advantage-card__text">
+            Электронные книги приходят на email сразу после оплаты. Без ожидания и очередей.
+          </p>
+        </div>
+        <div class="advantage-card">
+          <div class="advantage-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+          </div>
+          <h3 class="advantage-card__title">Безопасные платежи</h3>
+          <p class="advantage-card__text">
+            Защищённые транзакции через проверенные платёжные системы. Ваши данные в безопасности.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--about-->
+    <section class="about-why">
+      <div class="about-why__layout">
+        <div>
+          <h2 class="about-why__title">
+            Почему стоит<br>выбрать <em>нас?</em>
+          </h2>
+        </div>
+        <ul>
+          <li>Прозрачность — никаких серых схем или перепродаж. Честные цены от издательств.</li>
+          <li>Широкий ассортимент — новинки, бестселлеры и классика мировой литературы.</li>
+          <li>Честные цены — регулярные акции и специальные предложения для постоянных покупателей.</li>
+          <li>Поддержка 24/7 — наша команда готова помочь с любым вопросом в любое время.</li>
+          <li>Удобный интерфейс — простая навигация, быстрый поиск, понятный каталог.</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<!--footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <p class="footer__col-title">Приложение</p>
+        <ul class="footer__apps">
+          <li>
+            <a href="#" class="footer__app-link" aria-label="Google Play">
+              <img src="../svg/icon-playmarket.svg" alt="Google Play" width="20" height="20">
+              <span>Google Play</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer__app-link" aria-label="App Store">
+              <img src="../svg/icon-appstore.svg" alt="App Store" width="20" height="20">
+              <span>App Store</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer__app-link" aria-label="AppGallery">
+              <img src="../svg/icon-appgallery.svg" alt="AppGallery" width="20" height="20">
+              <span>AppGallery</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Навигация</p>
+        <ul class="footer__links">
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Соцсети</p>
+        <ul class="footer__apps">
+          <li>
+            <a href="https://vk.ru/index.php?ysclid=moqbzmiesm591803679" class="footer__app-link" aria-label="ВКонтакте" target="_blank" rel="noopener noreferrer">
+              <img src="../svg/icon-vk.svg" alt="" width="18" height="18">
+              <span>ВКонтакте</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/alekseypasevich/?hl=ru" class="footer__app-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <img src="../svg/icon-instagram.svg" alt="" width="18" height="18">
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/aallekseii213" class="footer__app-link" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
+              <img src="../svg/icon-telegram.svg" alt="" width="18" height="18">
+              <span>Telegram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__bottom-address">Адрес: Республика Беларусь, г. Минск, 220033, ул. Белорусская, 21 Телефон: +375 (29) 123 45 67</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/menu.js?v=20260504"></script>
+</body>
+</html>
+

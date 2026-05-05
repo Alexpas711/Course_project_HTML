@@ -1,0 +1,22 @@
+<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!--mark-->
+  <path
+    d="M20 14
+       C17 12.2 14.2 11.6 10.8 11.6
+       H10
+       V29.4
+       H10.8
+       C14.2 29.4 17 30 20 31.8
+       M20 14
+       C23 12.2 25.8 11.6 29.2 11.6
+       H30
+       V29.4
+       H29.2
+       C25.8 29.4 23 30 20 31.8"
+    stroke="#6bb8ff"
+    stroke-width="2.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="M20 14V31.8" stroke="#6bb8ff" stroke-width="2.8" stroke-linecap="round"/>
+</svg>

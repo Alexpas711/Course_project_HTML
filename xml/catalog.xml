@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <book id="1">
+    <title>Мастер и Маргарита</title>
+    <author>Михаил Булгаков</author>
+    <genre>Классика</genre>
+    <year>1967</year>
+    <price>23,79</price>
+    <publisher>АСТ</publisher>
+    <pages>480</pages>
+    <language>Русский</language>
+    <description>Мистический роман о Москве 30-х годов, где Воланд и его свита вскрывают человеческие пороки. Параллельно развивается история Понтия Пилата и вечной любви Мастера и Маргариты.</description>
+  </book>
+  <book id="2">
+    <title>Рыцарь Семи Королевств</title>
+    <author>Джордж Р. Р. Мартин</author>
+    <genre>Фэнтези</genre>
+    <year>2015</year>
+    <price>31,79</price>
+    <publisher>Bantam</publisher>
+    <pages>416</pages>
+    <language>Русский</language>
+    <description>Сборник повестей о Дунке и Эгге, события которого происходят за сто лет до «Игры престолов». Истории о чести, дружбе и борьбе за место в жестоком мире Вестероса.</description>
+  </book>
+  <book id="3">
+    <title>На Западном фронте без перемен</title>
+    <author>Эрих Мария Ремарк</author>
+    <genre>Классика</genre>
+    <year>1929</year>
+    <price>25,99</price>
+    <publisher>Прогресс</publisher>
+    <pages>320</pages>
+    <language>Русский</language>
+    <description>Антивоенный роман о судьбе немецких солдат в Первую мировую войну. Глубокий и трагичный взгляд на потерянное поколение.</description>
+  </book>
+  <book id="4">
+    <title>Метро 2033</title>
+    <author>Дмитрий Глуховский</author>
+    <genre>Фантастика</genre>
+    <year>2005</year>
+    <price>40,19</price>
+    <publisher>АСТ</publisher>
+    <pages>384</pages>
+    <language>Русский</language>
+    <description>Постапокалиптическая история о выживании людей в московском метро после ядерной катастрофы. Главный герой Артем отправляется в опасное путешествие ради спасения станции.</description>
+  </book>
+  <book id="5">
+    <title>Песнь Льда и Пламени</title>
+    <author>Джордж Р. Р. Мартин</author>
+    <genre>Фэнтези</genre>
+    <year>1996</year>
+    <price>45,89</price>
+    <publisher>Bantam</publisher>
+    <pages>832</pages>
+    <language>Русский</language>
+    <description>Эпическая фэнтези-сага о борьбе за Железный трон, интригах великих домов и надвигающейся угрозе за Стеной.</description>
+  </book>
+  <book id="6">
+    <title>Бойцовский клуб</title>
+    <author>Чак Паланик</author>
+    <genre>Современная проза</genre>
+    <year>1996</year>
+    <price>21,49</price>
+    <publisher>W. W. Norton</publisher>
+    <pages>256</pages>
+    <language>Русский</language>
+    <description>Провокационный роман о кризисе личности, потребительском обществе и бунте против системы. История, где граница между реальностью и безумием стирается.</description>
+  </book>
+  <book id="7">
+    <title>Гарри Поттер и философский камень</title>
+    <author>Дж. К. Роулинг</author>
+    <genre>Фэнтези</genre>
+    <year>1997</year>
+    <price>32,79</price>
+    <publisher>Bloomsbury</publisher>
+    <pages>432</pages>
+    <language>Русский</language>
+    <description>Начало знаменитой истории о мальчике-волшебнике, школе Хогвартс и противостоянии темному магу Волан-де-Морту.</description>
+  </book>
+  <book id="8">
+    <title>Хоббит</title>
+    <author>Дж. Р. Р. Толкин</author>
+    <genre>Фэнтези</genre>
+    <year>1937</year>
+    <price>28,99</price>
+    <publisher>Allen and Unwin</publisher>
+    <pages>320</pages>
+    <language>Русский</language>
+    <description>Приключенческая история Бильбо Бэггинса, который вместе с гномами отправляется к Одинокой горе и дракону Смаугу.</description>
+  </book>
+  <book id="9">
+    <title>Маленький принц</title>
+    <author>Антуан де Сент-Экзюпери</author>
+    <genre>Классика</genre>
+    <year>1943</year>
+    <price>18,79</price>
+    <publisher>Gallimard</publisher>
+    <pages>128</pages>
+    <language>Русский</language>
+    <description>Философская сказка о дружбе, ответственности и настоящих ценностях. Книга, которую по-разному читают дети и взрослые.</description>
+  </book>
+  <book id="10">
+    <title>Война и мир</title>
+    <author>Лев Толстой</author>
+    <genre>Классика</genre>
+    <year>1869</year>
+    <price>48,79</price>
+    <publisher>Эксмо</publisher>
+    <pages>1225</pages>
+    <language>Русский</language>
+    <description>Монументальный роман-эпопея о судьбах дворянских семей на фоне Отечественной войны 1812 года. Размышление о войне, истории и человеческой жизни.</description>
+  </book>
+  <book id="11">
+    <title>Властелин колец</title>
+    <author>Дж. Р. Р. Толкин</author>
+    <genre>Фэнтези</genre>
+    <year>1954</year>
+    <price>60,49</price>
+    <publisher>Allen and Unwin</publisher>
+    <pages>1178</pages>
+    <language>Русский</language>
+    <description>Классическая трилогия о путешествии Фродо и Братства Кольца. История о дружбе, мужестве и борьбе света с тьмой.</description>
+  </book>
+  <book id="12">
+    <title>Преступление и наказание</title>
+    <author>Федор Достоевский</author>
+    <genre>Классика</genre>
+    <year>1866</year>
+    <price>29,69</price>
+    <publisher>Эксмо</publisher>
+    <pages>592</pages>
+    <language>Русский</language>
+    <description>Психологический роман о Раскольникове, его преступлении и тяжелом пути к осознанию вины и нравственному возрождению.</description>
+  </book>
+</catalog>
